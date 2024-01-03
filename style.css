@@ -1,0 +1,141 @@
+.styled-table {
+    border-collapse: collapse;
+    margin: 40px 0;
+    font-size: 1em;
+    font-family:  tahoma;
+    font-weight: bold;
+    min-width: 100px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  
+  
+  
+}
+.styled-table thead tr {
+    background-color: orange;
+    color: black;
+    text-align: left;
+    animation-name: example;
+    animation-duration: 4s;
+    text-shadow: 2px 0px 8px grey;
+}
+.styled-table th,
+.styled-table td {
+    padding: 15px 10px;
+  backdrop-filter: blur(3px);
+  
+}
+.styled-table tbody tr {
+    border-bottom: 0.5px solid black;
+  
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: white;
+    color: black;
+     text-shadow: 2px 0px 8px grey;
+}
+
+.styled-table tbody tr: last-of-type {
+    border-bottom: 2px solid orange;
+ 
+}
+
+ table, th, td {
+  border: 2px solid black;
+}
+
+body{
+ background-image: url("https://pub-static.fotor.com/assets/bg/9a28eb8c-c661-4abd-8e58-c579dbb2aa30.jpg");
+  
+  
+  
+  font-family:tahoma;
+  
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #d3d3d3;
+  text-shadow: 2px 2px 4px #000000;
+  padding-left:20px;
+  padding-right:200px;
+}
+
+.contact {
+  
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: #d3d3d3;
+  font-weight: bold;
+  border: 0px transparent;
+  position: absolute;
+  padding: 10px;
+  padding-top:1.3px;
+  padding-left:15px;
+}
+
+
+.me, .work, .q, .ed, .cv {
+           background-color: rgb(0,0,0); 
+            background-color: rgba(0,0,0, 0.3); 
+  color: #d3d3d3;
+  font-weight: bold;
+  
+  width: 800px;
+  
+  padding: 10px;
+  margin: 20px
+ 
+  
+  
+  
+  
+}
+
+.work{
+  line-height:60%
+}
+ul
+{
+  margin-bottom: 50px;
+  line-height:200%
+}
+
+
+
+a {font-size: 25px;
+
+color:orange;
+
+}
+
+.welcome {
+  font-size: 150px;
+  color:orange;
+  text-shadow: 0px 10px 900px orange;
+  padding-left: 20px;
+  font-family:monaco;
+}
+
+
+.me{
+  
+  
+width: 800px;
+  
+  padding: 10px;
+  margin: 20px
+}
+
+.ed{
+  width: 800px;
+  
+  padding: 10px;
+  margin: 20px
+  
+}
+
+a:hover{
+  color:grey;
+}

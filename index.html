@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CV - 1st HTML</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Remus Resume</title>
+  </head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+  
+<style>
+body {margin:2;}
+
+.topnav {
+  overflow: hidden;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #d3d3d3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 90px solid trasnparent;
+  text-shadow: 2px 2px 4px #000000;
+  
+  
+ 
+}
+
+.topnav a:hover {
+  border-bottom: 4px solid orange;
+  box-shadow: 0px 0px 10px orange inset;
+ 
+}
+
+.topnav a.active {
+  border-bottom: 4px solid orange;
+  animation-duration: example 3s infinite;
+  animation-name: example;
+  
+  
+}
+  
+  @keyframes example {
+  from {background-color: orange;}
+  to {background-color: green;}
+}
+  
+ .styled-table {
+    border-collapse: collapse;
+    margin: 40px 0;
+    font-size: 1em;
+    font-family:  tahoma;
+    font-weight: bold;
+    min-width: 100px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  
+  
+  
+}
+.styled-table thead tr {
+    background-color: orange;
+    color: black;
+    text-align: left;
+    animation-name: example;
+    animation-duration: 4s;
+    text-shadow: 2px 0px 8px grey;
+}
+.styled-table th,
+.styled-table td {
+    padding: 15px 10px;
+  backdrop-filter: blur(3px);
+  
+}
+.styled-table tbody tr {
+    border-bottom: 0.5px solid black;
+  
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: white;
+    color: black;
+     text-shadow: 2px 0px 8px grey;
+}
+
+.styled-table tbody tr: last-of-type {
+    border-bottom: 2px solid orange;
+ 
+}
+
+ table, th, td {
+  border: 2px solid black;
+}
+
+body{
+ background-image: url("https://pub-static.fotor.com/assets/bg/9a28eb8c-c661-4abd-8e58-c579dbb2aa30.jpg");
+  
+  
+  
+  font-family:tahoma;
+  
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #d3d3d3;
+  text-shadow: 2px 2px 4px #000000;
+  padding-left:20px;
+  padding-right:200px;
+}
+
+.contact {
+  
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: #d3d3d3;
+  font-weight: bold;
+  border: 0px transparent;
+  position: absolute;
+  padding: 10px;
+  padding-top:1.3px;
+  padding-left:15px;
+}
+
+
+.me, .work, .q, .ed, .cv {
+           background-color: rgb(0,0,0); 
+            background-color: rgba(0,0,0, 0.3); 
+  color: #d3d3d3;
+  font-weight: bold;
+  
+  width: 800px;
+  
+  padding: 10px;
+  margin: 20px
+ 
+  
+  
+  
+  
+}
+
+.work{
+  line-height:60%
+}
+ul
+{
+  margin-bottom: 50px;
+  line-height:200%
+}
+
+
+
+a {font-size: 25px;
+
+color:orange;
+
+}
+
+.welcome {
+  font-size: 150px;
+  color:orange;
+  text-shadow: 0px 10px 900px orange;
+  padding-left: 20px;
+  font-family:monaco;
+}
+
+
+.me{
+  
+  
+width: 800px;
+  
+  padding: 10px;
+  margin: 20px
+}
+
+.ed{
+  width: 800px;
+  
+  padding: 10px;
+  margin: 20px
+  
+}
+
+a:hover{
+  color:grey;
+}
+
+  
+ 
+  </style>
+  
+</head>
+
+<body>
+
+<div class="topnav">
+  
+  <a class="active" href="#home">Home</a>
+  <a href="#education">Education</a>
+  <a href="#workexperience">Work Experience</a>
+ 
+  <a href="#qualifications">Qualifications/Skills</a>
+  <a href="#contact">Contact</a>
+</div>
+  
+  <br>
+  <br>
+
+  
+  
+  
+  
+  <div class="welcome">Welcome!</div>
+    
+  
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+  
+<div style="padding-left:15px;padding-top:1.3px;" class="me">
+  
+  
+  <h2>About me</h2>
+  
+  <p>I consider myself a problem solver, with a great attention to detail, a team-player and well-good person with communication. My ambition stays in the willing to learn attitude,  I am open to learn new skills or new trainings. I face all the challenges with positive energy and I manage, prioritize my time to meet my deadlines, my tasks.<br><br></p>
+  
+  
+</div>
+  <br>
+  <br>
+  <br>
+
+  <div id="education" style="padding-left:15px;padding-top:1.3px;" class="ed">
+    <h2 href="home">Education</h2>
+    
+    
+    
+    <table class="styled-table">
+      <thead>
+        <tr>
+          <th>Institution Name</th>
+          <th>Domain</th>
+          <th>Period</th>
+        </tr>
+      </thead>
+      
+      <tbody>
+        <tr>
+          <td>National College ,,Mihai Eminescu'' - Bucharest, Ro</td>
+          <td>GCSE Level - Mathematichs</td>
+          <td>2011-2015</td>
+        </tr>
+        
+        <tr>
+          <td>University of Lincoln - Lincoln, UK</td>
+          <td>BSc Computer Science</td>
+          <td>2019</td>
+      </tbody>
+    </table>
+    </div>
+  
+  <br>
+  <br>
+  <br>
+  <div class="cv">
+        <a href="https://profile-api-prod.s3.us-west-2.amazonaws.com/503300217_cd449468-194e-44d1-ba32-72179f1edc53?response-content-disposition=attachment%3Bfilename%3DRemus-Emanuel-Badica.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231020T183845Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=AKIAZKXXDXTXZF2KYWCD%2F20231020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Signature=9c978b7854d26ab464ea91bd0ba9d0f69eac4254117aede31bbfa83c11cece5b" target="blank">Work Experience</a>
+   <p>Along the years, I achieved various skills, like management, customer service, computing and many others, in various domains. I am happy to present a resume about my work experience.<br>Feel free to download my resume, by pressing on the title.</p>
+    
+    
+  </div>
+  <br>
+  <br>
+  
+  
+     
+     
+ <div id="workexperience" style="padding-left:15px;background: blur;padding-top:1.3px;" class="work">
+  
+     <br>
+     <br>
+   
+     <a href="https://gasdirect.co.uk/gas-direct/" target="blank">Gas Direct</a>
+   <h3>Sales Administrator - Temporary</h3>
+   <h4>Feb. 2023 - Present</h4>
+   <h5>Long Bennington, England</h5>
+   <ul>
+     <li>Promoting products, placing and checking orders, schedule deliveries, maintenance, dealing with complains - via e-mail, inbound calls, in-person on site</li>
+     <li>Outbound calls to follow-up debts or different inquiries</li>
+     <li>Processing purchase invoices and delivery notes daily in CRM system</li>
+     <li>Banking responsibilities, processing payments from customers via card machine & reconciling + introducing them in the database</li>
+     <li>Microsoft 365 (Outlook, Excel, Word, Teams)</li>
+   </ul>
+   
+   <br>
+   <br>
+   
+   <a href="https://www.thebarcodewarehouse.co.uk/?ppc_keyword=the%20barcode%20warehouse&utm_term=the%20barcode%20warehouse&utm_campaign=Barcode+Warehouse&utm_source=google&utm_medium=ppc&hsa_acc=6299398270&hsa_cam=12352166&hsa_grp=290346266&hsa_ad=507220018535&hsa_src=g&hsa_tgt=kwd-4973370984&hsa_kw=the%20barcode%20warehouse&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjwysipBhBXEiwApJOcuwyFCRspVWV5g4YK_UBx9kaEAhZGyCvLG7iH4VKvW46gQRQ1ZJPrrRoCBk0QAvD_BwE" target="blank">The Barcode Warehouse</a>
+   <h3>Technical Support - Part Time</h3>
+   <h4>Jun. 2022 - Dec. 2022</h4>
+   <h5>Newark-on-Trent, England</h5>
+   <ul>
+     <li>Diagnosing software faults and providing over-the-phone solutions</li>
+     <li>Remote control on assets that are used by the contractors</li>
+     <li>Monitor group mailboxes, status of assets, ensuring all inbound queries received a response within SLA</li>
+     <li>Experience in B2B - promoting and selling consumables or accessories for label machines or assets</li>
+   </ul>
+   <br>
+   <br>
+   <a href="https://www.telusinternational.com/" target="blank">Telus International</a>
+   <h3>Technical Support</h3>
+   <h4>Mar. 2021 - Jun.2022</h4>
+   <h5>Remote</h5>
+   <ul>
+     <li>Taking inbound calls and responding to emails, chats, helping customers with bookings, payments, account details</li>
+     <li>Password reset, changing details in the account, end-to-end navigation on the booking tool to create a booking, replicating the client booking, contacting the hosts, promoting offers and marketing information</li>
+     <li>Dealing with international customers from the whole world (Europe, Asia, Africa, America, Australia) - working in the night shifts based on shift</li>
+     <li>Access to customer accounts and confidential information such as bank accounts, IDs, and payments</li>
+   </ul>
+   
+     
+     
+      
+  <br>
+  </div>
+  <br>
+  <br>
+  
+  <div id="qualifications" class="q" style="padding-left:15px;padding-top:1.3x;">
+    <h2>Qualifications</h2>
+    <p></p>
+    
+        <table class="styled-table">
+          <thead>
+             <tr>
+              <th>No.</th>
+              <th>Certificate Name</th>
+              <th>Details</th> 
+            </tr>
+          </thead>
+          
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Psychology Certificate</td>
+              <td>&#10008 Human, social, interactive, positive psychology, body language, business psychology and the art of negotiation</td>
+            </tr>
+            
+            <tr>
+              <td>2</td>
+              <td>Behavioral Finance</td>
+              <td>&#10008 Pshychology of finance and marketing strategies of human needs in business</td>
+            </tr>
+            
+            <tr>
+              <td>3</td>
+              <td>IELTS Examination - English</td>
+              <td>&#10008 Official certificate issued by the British Council</td>
+            </tr>
+            
+            <tr>
+              <td>4</td>
+              <td>HTML&CSS - Fundamentals</td>
+              <td>&#10008 Independent certificate obtained from codeacademy.com</td>
+            </tr>
+    </table>
+    
+  </div>
+    <br>
+  <br>
+    
+    <div id="contact" class="contact">
+      <h2>Contact</h2>
+      
+      <p>E-mail: Remusemmanuel@yahoo.com</p>
+      
+      
+      
+    </div>
+<!-- partial -->
+  
+</body>
+</html>
